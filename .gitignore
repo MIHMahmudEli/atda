@@ -1,0 +1,52 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Environment & Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Checkpoints & Large Data Artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.onnx
+data/
+datasets/
+checkpoints/
+logs/
+runs/
+wandb/
+
+# Jupyter & IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LaTeX / Private Manuscript Drafts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.pdf
+*.tex
