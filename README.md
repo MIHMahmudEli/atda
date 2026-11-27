@@ -14,7 +14,7 @@ This repository is currently in **pre-publication** status while the manuscript 
 
 In accordance with the manuscript's **Data and Code Availability** statement:
 - **Benchmark Datasets**: All benchmark datasets analyzed in this study (MNIST, USPS, SVHN, MNIST-M, and Office-31) are publicly available through their canonical academic repositories (detailed below).
-- **Source Code, Checkpoints, and Evaluation Scripts**: Full source code, pre-trained model checkpoints, and evaluation scripts for ATDA++ are available from the corresponding author (`md.rakibul.islam@mdu.se`) upon reasonable request during review, and will be openly released in this repository upon publication.
+- **Source Code and Evaluation Scripts**: Full source code and evaluation scripts for ATDA++ are available from the corresponding author (`md.rakibul.islam@mdu.se`) upon reasonable request during review, and will be openly released in this repository upon publication.
 
 ---
 
