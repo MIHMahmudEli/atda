@@ -8,13 +8,11 @@ Official public repository for the manuscript:
 
 ---
 
-## Pre-Publication Notice (Data and Code Availability)
-
-This repository is currently in **pre-publication** status while the manuscript is under peer review at *Machine Learning with Applications* (Elsevier).
+## Data and Code Availability
 
 In accordance with the manuscript's **Data and Code Availability** statement:
-- **Benchmark Datasets**: All benchmark datasets analyzed in this study (MNIST, USPS, SVHN, MNIST-M, and Office-31) are publicly available through their canonical academic repositories (detailed below).
-- **Source Code and Evaluation Scripts**: Full source code and evaluation scripts for ATDA++ are available from the corresponding author (`md.rakibul.islam@mdu.se`) upon reasonable request during review, and will be openly released in this repository upon publication.
+- **Benchmark Datasets**: All benchmark datasets evaluated in this study (MNIST, USPS, SVHN, MNIST-M, and Office-31) are publicly available through their canonical published sources (detailed below).
+- **Source Code and Relevant Data**: The relevant data and source code supporting the findings of this study are available from the corresponding author (`md.rakibul.islam@mdu.se`) upon reasonable request.
 
 ---
 
@@ -33,11 +31,11 @@ In accordance with the manuscript's **Data and Code Availability** statement:
 
 | Dataset | Domain / Task | Protocol in Manuscript | Canonical Source |
 | :--- | :--- | :--- | :--- |
-| **MNIST** | Handwritten digits | P1 (2,000 train), P2 (full split), SVHN→MNIST, MNIST→MNIST-M | LeCun et al. (1998) — `torchvision.datasets.MNIST` |
-| **USPS** | Handwritten digits | P1 (1,800 train), P2 (full split) | Denker et al. (1989) — `torchvision.datasets.USPS` |
-| **SVHN** | Street-view house numbers | SVHN→MNIST | Netzer et al. (2011) — `torchvision.datasets.SVHN` |
-| **MNIST-M** | Blended color-patch digits | MNIST→MNIST-M (DANN protocol) | Ganin et al. (2016) |
-| **Office-31** | 31 object classes (4,652 images across Amazon, Webcam, DSLR) | All 6 directed transfer tasks (ResNet-50) | Saenko et al. (2010) / Long et al. (2015) |
+| **MNIST** | Handwritten digits | P1 (2,000 train), P2 (full split), SVHN→MNIST, MNIST→MNIST-M | LeCun et al. (1998), DOI: `10.1109/5.726791` |
+| **USPS** | Handwritten digits | P1 (1,800 train), P2 (full split) | Denker et al. (1989), [NeurIPS](https://proceedings.neurips.cc/paper/1988/hash/e2ef524fbf3d9fe611d5a8e90fefdc9c-Abstract.html) |
+| **SVHN** | Street-view house numbers | SVHN→MNIST | Netzer et al. (2011), [UFLDL](http://ufldl.stanford.edu/housenumbers/) |
+| **MNIST-M** | Blended color-patch digits | MNIST→MNIST-M (DANN protocol) | Ganin et al. (2016), [JMLR](http://jmlr.org/papers/v17/15-239.html) |
+| **Office-31** | 31 object classes (4,652 images across Amazon, Webcam, DSLR) | All 6 directed transfer tasks (ResNet-50) | Long et al. (2015), [PMLR](http://proceedings.mlr.press/v37/long15.html) |
 
 ---
 
